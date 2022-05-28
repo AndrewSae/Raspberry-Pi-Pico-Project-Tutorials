@@ -4,12 +4,14 @@ In this repo you will find tons of Raspberry Pi Pico Project with full tutorials
 
 
 
-## Projects
+## Leaning Path
 
-| Project Number             | Project Name                                                                |
+| Order             | Task                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| 1 | [Led Blink](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20Blink) |
-| 2 | [Led With Button](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20With%20Button) |
+| 1 | Watch how to set up the pi pico with thonny found [here](https://www.youtube.com/watch?v=_ouzuI_ZPLs) |
+| 2 | Review [Helpful Resources]() | 
+| 3 | [Led Blink](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20Blink) |
+| 4 | [Led With Button](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20With%20Button) |
 
 ## FAQ
 
