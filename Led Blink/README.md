@@ -19,7 +19,7 @@ In this first project you will learn how to interface a led with the Pi Pico the
 
 
 - Step 3:
-  - Now connect the one leg of the 220Ω resistor into the same row that the leds positive leg is in then connect the other led of the resistor into a completely different row of the breadboard, it should look something like this:
+  - Now connect the one leg of the 220Ω resistor into the same row that the leds positive leg is in then connect the other leg of the resistor into a completely different row of the breadboard, it should look something like this:
 ![Step_1](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/blob/main/Led%20Blink/Circuit/step3.png?raw=true)
 
 - Step 4:
@@ -49,7 +49,7 @@ To turn on and off the led we will be using the ```toggle()``` function
 
 The ```toggle()``` function will always do the opposite of what the pins status is if the pin is sending power to the led and you call the ```toggle()``` function the pin will stop sending power to the led
 
-Now to make it blink we will need a ```while True:```  then we need to call the ```toggle()``` function to turn the led on next we will use the ```sleep()``` function to keep the led on for a certain amount of time then on the next pass of the loop the ```toggle()``` function will turn off the led
+Now to make it blink we will need a ```while True:```  then we need to call the ```toggle()``` function to turn the led on next we will use the ```sleep()``` function to keep the led on for a certain amount of time then on the next pass of the loop the ```toggle()``` function will turn off the led and so on
 
 ```python 
 while True: 
@@ -64,4 +64,5 @@ while True:
 Save the code to the pico and press the run button if you made all the connections correctly you will see the led flashing 
 
 ## Challenge:
-Use the code that we just made and add another led to the code and the circuit but make it so that they alternate what led is on and off, so if led 1 is on then led 2 is off and make it so that always happening. 
+Add another led to the circuit and make it so that the leds alternate what one is off
+
