@@ -1,4 +1,4 @@
-bfrom machine import Pin, I2C
+from machine import Pin, I2C
 from ssd1306 import SSD1306_I2C
 
 width = 128
