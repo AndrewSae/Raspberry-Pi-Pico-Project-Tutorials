@@ -8,7 +8,7 @@ In this project you will learn how to connect, get the input from a button, you 
 - Breadboard 
 - A led 
 - 220Ω resistor
-- A 4 leg NC button
+- A 4 leg NO button
 - 5x male to male wires
 
 ## Setup the circuit:
