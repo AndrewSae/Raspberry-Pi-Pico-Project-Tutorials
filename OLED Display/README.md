@@ -1,7 +1,3 @@
-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
-
-
-
 ## OLED Display Project:
 In this project you will learn how to write text to a OLED display 
 
@@ -29,7 +25,7 @@ In this project you will learn how to write text to a OLED display
 
 The first thing we need to to is to import the required modules we will be using the ```Pin``` module to use the pins on the pico, we also need to import the ```I2C``` module so we can use the I2C pins on the pico, and we need to import the ```SSD1306_I2C``` module so we can write text to the OLED display
 
-(note that the ```SSD1306_I2C``` is not included in micropython so in thonny go to ```tools``` > ```manage packages``` and search for ```ssd1306``` and you will see a package named ```micropython-ssd1306``` and install it) 
+(note that the ```SSD1306_I2C``` is not included in micropython so in thonny go to ```tools``` > ```manage packages``` and search for ```ssd1306``` and you will see a package named ```micropython-ssd1306``` and install it also I have added the library in this project found [here](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/blob/main/OLED%20Display/lib/ssd1306.py)
 ``` python 
 from machine import Pin, I2C
 from ssd1306 import SSD1306_I2C
@@ -69,5 +65,8 @@ And to show the text we use the ```show()``` function
 ``` python 
 oled.show()
 ```
+
+(Note that the code can also be found in the [main.py](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/blob/main/OLED%20Display/main.py) file)
+
 ## Run the code:
 save the code to the pico and run it and you will how see the string ```Hello World!``` printed onto the display
