@@ -13,6 +13,12 @@ In this repo you will find tons of Raspberry Pi Pico Project with full tutorials
 | 3 | [Led Blink](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20Blink) |
 | 4 | [Led With Button](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Led%20With%20Button) |
 | 5 | [OLED Display](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/OLED%20Display) |
+| 6 | [16x2 Character Display](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/16x2%20Character%20Display) |
+| 7 | [DHT22 (Temperature And Humidity Sensor)](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/DHT22) |
+| 8 | [Weather Station](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Weather%20Station) |
+| 8 | [Servo Control](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/tree/main/Servo) |
+
+
 
 ## FAQ
 
