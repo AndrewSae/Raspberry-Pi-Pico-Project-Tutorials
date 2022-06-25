@@ -75,6 +75,20 @@ while True:
     else:
         led.value(0)
 ```
+Full code
+``` python 
+
+from machine import Pin
+
+led = Pin(15, Pin.OUT)
+button = Pin(14, Pin.IN, Pin.PULL_DOWN)
+
+while True:
+    if button.value():
+    	led.value(1)
+    else:
+        led.value(0)
+```
 (Note that the code can also be found in the [main.py](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/blob/main/Led%20With%20Button/main.py) file
 
 ## Run The Code:
