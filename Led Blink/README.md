@@ -57,6 +57,20 @@ while True:
 	sleep(0.5) 
 ```
 
+
+Full code
+```python 
+
+from machine import Pin
+from time import sleep
+
+led = Pin(15,Pin.OUT) 
+
+while True: 
+	led.toggle()    
+	sleep(0.5) 
+```
+
 (Note that the code can also be found in the [main.py](https://github.com/AndrewSae/Raspberry-Pi-Pico-Project-Tutorials/blob/main/Led%20Blink/main.py) file)
 
 ## Run the code:
